@@ -1,7 +1,11 @@
 body {
     margin: 60px auto;
+    padding: 0;
     width: 70%;
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
 }
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -21,12 +25,22 @@ a:hover {
 }
 h1 {
     font-size: 3em;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color: white;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h3 {
+    font-size: 1em;
+    color: white;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: white;
+    text-align: justify;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 footer {
     border-top: 1px solid #d5d5d5;
