@@ -33,38 +33,40 @@ nav ul li, footer ul li {
 footer ul li a {
     text-decoration: none;
     color: #e42183;
-    font-size: 30px;
+    font-size: 50px;
     transition: all ease-in-out 250ms;
 }
 /* home and contact menu */
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 15px;
-}
-/* underline of home and contact*/
-a:hover {
-    text-decoration: underline;
+    font-size: 10px;
 }
 /*move over icons and changes color*/
 li a:hover{
-    color: blueviolet;
+    color: rgb(245, 119, 23);
+}
+/*hyper link to insta*/
+a:link, a:hover{
+    color:aqua;
+    text-decoration: none;
 }
 h1 {
     font-size: 3em;
-    letter-spacing: 4px;
-    font-weight: 400;
+    letter-spacing: 3px;
+    font-weight: 700;
     color: white;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h3 {
-    font-size: 1em;
+    font-size: 1.5em;
     color: white;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1.7em;
+    font-weight: 700;
     color: white;
     text-align: justify;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
