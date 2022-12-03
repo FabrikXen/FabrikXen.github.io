@@ -1,10 +1,19 @@
-body {
+body.home {
     margin: 60px auto;
     padding: 0;
     width: 70%;
     /*two bg imgs stacked on top of eachother*/
-    background-image: url(bg1.jpg), url(bg2.jpg);
-    background-repeat: no-repeat, repeat-y;
+    background-image: url(bg3.jpg), url(bg2.jpg), url(bg4.jpg);
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: cover;
+    
+}
+/*background for contact page*/
+body.Contact{
+    margin: 60px auto;
+    padding: 0;
+    width: 70%;
+    background-image: url(face.JPG);
     background-size: cover;
 }
 
@@ -43,7 +52,7 @@ li a:hover{
 h1 {
     font-size: 3em;
     letter-spacing: 4px;
-    font-weight: 100;
+    font-weight: 400;
     color: white;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -63,7 +72,6 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
@@ -72,3 +80,21 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+/*glowing text*/
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
