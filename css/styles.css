@@ -4,7 +4,7 @@ body.home {
     width: 70%;
     /*two bg imgs stacked on top of eachother*/
     background-image: url(bg3.jpg), url(bg2.jpg), url(bg4.jpg);
-    background-repeat: no-repeat, no-repeat, repeat;
+    background-repeat: no-repeat, repeat-y, repeat;
     background-size: cover;
     
 }
