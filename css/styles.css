@@ -3,13 +3,14 @@ body.home {
     padding: 0;
     width: 70%;
     /*two bg imgs stacked on top of eachother*/
-    background-image: url(bg3.jpg), url(bg2.jpg), url(bg4.jpg);
-    background-repeat: no-repeat, repeat-y, repeat;
+    background-image: url(bg3.jpg), url(bg2.jpg);
+    background-repeat: no-repeat,repeat;
     background-size: cover;
+    
     
 }
 /*background for contact page*/
-body.Contact{
+body.contact{
     margin: 60px auto;
     padding: 0;
     width: 70%;
