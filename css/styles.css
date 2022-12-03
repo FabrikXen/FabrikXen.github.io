@@ -2,8 +2,8 @@ body {
     margin: 60px auto;
     padding: 0;
     width: 70%;
-    background-image: url(bg1.jpg);
-    background-repeat: repeat-y;
+    background-image: url(bg1.jpg), url(bg2.jpg);
+    background-repeat: no-repeat, repeat-y;
     background-size: cover;
 }
 
