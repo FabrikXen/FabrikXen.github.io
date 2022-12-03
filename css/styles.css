@@ -12,16 +12,31 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+/* layout of nav list and footer list */
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
+/* scocial media icons in footer */
+footer ul li a {
     text-decoration: none;
-    color: #999;
+    color: #e42183;
+    font-size: 30px;
+    transition: all ease-in-out 250ms;
 }
+/* home and contact menu */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+/* underline of home and contact*/
 a:hover {
     text-decoration: underline;
+}
+/*move over icons and changes color*/
+li a:hover{
+    color: blueviolet;
 }
 h1 {
     font-size: 3em;
