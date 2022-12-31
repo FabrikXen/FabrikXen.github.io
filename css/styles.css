@@ -9,6 +9,13 @@ body.home {
     
     
 }
+.header {
+    padding: 0px;
+    text-align: left;
+    background: #1abc9c;
+    color: white;
+    font-size: 10px;
+  }
 /*background for contact page*/
 body.contact{
     margin: 60px auto;
