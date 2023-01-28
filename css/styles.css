@@ -92,8 +92,9 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h3 {
+    letter-spacing: 3px;
     font-size: 1em;
-    color: white;
+    color: rgb(130, 4, 4);
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
