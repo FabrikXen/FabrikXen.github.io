@@ -9,7 +9,6 @@ body.home {
        
 }
 
-
 .topnav {
     /*background-color: #333;*/
     overflow: hidden;
@@ -18,7 +17,6 @@ body.home {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 5px 14px;
     text-decoration: none;
     font-size: 12px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -26,9 +24,10 @@ body.home {
 }
 .topnav a.split {
     float: right;
+    padding: 5px 14px;
     text-decoration: none;
     color: #e42183;
-    font-size: 15px;
+    font-size: 20px;
     transition: all ease-in-out 250ms;
 }
 
@@ -84,9 +83,16 @@ h1 {
     font-weight: 700;
     color: white;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-bottom: 2px;
+}
+h2 {
+    margin-top: 0px;
+    font-size: 1.5em;
+    color: white;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h3 {
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
@@ -102,6 +108,8 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
+
+/* list item */
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
@@ -110,6 +118,23 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* list of projects*/
+ul.projects {
+    margin: 5px;
+    padding: 5px;
+    list-style-position: outside;
+    font-size: 1em;
+    line-height: 1.7em;
+    font-weight: 700;
+    text-align: justify;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    list-style-type: circle;
+    color: white;
+    
+}
+
+
 /*glowing text*/
 .glow {
     font-size: 20px;
